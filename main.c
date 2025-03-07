@@ -50,7 +50,7 @@ int compare_matrix(double *X, double *Y, int rows, int cols){
 //!
 int main(int argc, char *argv[]){
   if (argc < 2){
-    fprintf(stderr, "%s needs 1 argument (Nsize : matrix size)\n", argv[0]);
+    fprintf(stderr, "%s needs at least 1 argument (Nsize : matrix size)\n", argv[0]);
     fprintf(stderr, "%s Usage Nsize  [reps]\n", argv[0]);
     return(EXIT_FAILURE);
   }
